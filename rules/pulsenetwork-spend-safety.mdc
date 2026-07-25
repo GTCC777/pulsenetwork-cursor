@@ -1,0 +1,19 @@
+---
+description: Spend safety for PulseNetwork tools — real funds move when pulse_call runs
+alwaysApply: true
+---
+
+- `pulse_call` spends real USDC from the local wallet. Before running it on the user's
+  behalf, state the endpoint and its price (from `pulse_discover`) unless the user already
+  approved this specific call or an explicit budget for the task.
+- `pulse_discover`, `pulse_balance`, `pulse_report`, and `pulse_guardrail` are FREE —
+  always prefer them first, and always discover before calling.
+- If a call is blocked by a guardrail (per-call cap, daily cap, host allowlist), do NOT
+  retry it, split it, or attempt to route around the block. Report the block message to
+  the user; only the user can raise caps by editing the config file it names.
+- Never re-call a paid endpoint just because the response was slow — check with the user
+  before paying for the same thing twice.
+- Prefer the cheapest endpoint that answers the question; many verticals ship a $0.05–$0.25
+  "check"/"lite" tier next to a more expensive full product.
+- If `pulse_balance` shows 0 USDC, paid calls will fail — give the user the wallet address
+  and ask them to fund it with USDC on Base rather than retrying.

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pulsenetwork": {
+      "command": "npx",
+      "args": ["-y", "@pulsenetwork/mcp", "mcp"]
+    }
+  }
+}

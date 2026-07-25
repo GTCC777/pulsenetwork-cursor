@@ -1,0 +1,10 @@
+{
+  "name": "pulsenetwork",
+  "displayName": "PulseNetwork — Agent Wallet & 900+ Paid Data APIs",
+  "version": "0.1.0",
+  "description": "Give your Cursor agent a wallet and 900+ pay-per-call intelligence APIs — finance, crypto, health, law, travel, climate, safety. Zero-config wallet, hard spend caps enforced below the model, free discovery, USDC micropayments on Base via x402. No accounts, no API keys.",
+  "author": { "name": "The Aslan Group LLC", "url": "https://pulse.theaslangroupllc.com" },
+  "license": "MIT",
+  "keywords": ["wallet", "payments", "x402", "usdc", "base", "data", "api", "agentic-commerce", "mcp", "intelligence"],
+  "logo": "assets/logo.png"
+}
