@@ -10,6 +10,10 @@ One install adds:
 - **Zero-config wallet**: generated on first use (standard BIP-39, imports into
   MetaMask), stored locally at `~/.pulsepay/` — fund it with a few dollars of USDC on
   Base and paid calls just work
+
+> **No wallet? No problem.** [PulseNetwork Intel on MCPize](https://mcpize.com/mcp/pulsenetwork-intel)
+> offers our 8 most-bought tools (token safety, macro, geopolitical) as a hosted MCP server
+> with a free tier and plain monthly subscription — no crypto required.
 - **Spend safety**: $0.50/call and $5/day caps enforced *in code, below the model* — the
   agent has no tool to raise them; only you can, by editing `~/.pulsepay/config.json`.
   The wallet only ever pays PulseNetwork hosts.
