@@ -3,6 +3,10 @@
     "pulsenetwork": {
       "command": "npx",
       "args": ["-y", "@pulsenetwork/mcp", "mcp"]
+    },
+    "lp-copilot": {
+      "command": "npx",
+      "args": ["-y", "@pulsenetwork/lp-copilot-mcp", "mcp"]
     }
   }
 }
