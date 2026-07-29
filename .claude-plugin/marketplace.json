@@ -1,0 +1,28 @@
+{
+  "name": "pulsenetwork",
+  "owner": {
+    "name": "The Aslan Group LLC",
+    "url": "https://pulse.theaslangroupllc.com"
+  },
+  "description": "PulseNetwork plugins for Claude Code: a local agent wallet with 900+ keyless pay-per-call data APIs (x402 USDC, hard spend caps enforced in code), and an LP copilot for concentrated-liquidity positions.",
+  "plugins": [
+    {
+      "name": "pulsenetwork",
+      "source": "./plugins/pulsenetwork",
+      "description": "Agent wallet + 900+ pay-per-call intelligence APIs (finance, crypto, token safety, travel, health, law). Free discovery, x402 USDC on Base, spend caps enforced below the model.",
+      "category": "productivity",
+      "keywords": ["x402", "wallet", "data", "api", "token-safety", "micropayments"],
+      "license": "MIT",
+      "homepage": "https://pulse.theaslangroupllc.com"
+    },
+    {
+      "name": "lp-copilot",
+      "source": "./plugins/lp-copilot",
+      "description": "LP copilot: list your concentrated-liquidity positions on 7 chains free, buy range backtests, IL forecasts, position health and points-campaign EV per call. Non-custodial, shares the PulseNetwork wallet.",
+      "category": "productivity",
+      "keywords": ["defi", "liquidity", "uniswap-v3", "impermanent-loss", "points", "x402"],
+      "license": "MIT",
+      "homepage": "https://airdroppulse.theaslangroupllc.com"
+    }
+  ]
+}

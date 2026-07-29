@@ -36,3 +36,15 @@ Full catalog: https://pulse.theaslangroupllc.com/.well-known/pulse-catalog.json
 > "Any EU recalls for baby teethers this year?"
 
 MIT © The Aslan Group LLC
+
+## Claude Code
+
+This repo is also a Claude Code plugin marketplace:
+
+```
+/plugin marketplace add GTCC777/pulsenetwork-cursor
+/plugin install pulsenetwork@pulsenetwork
+/plugin install lp-copilot@pulsenetwork
+```
+
+Both plugins bundle their MCP server (`@pulsenetwork/mcp`, `@pulsenetwork/lp-copilot-mcp`) and share one local wallet at `~/.pulsepay` — fund it once with USDC on Base.

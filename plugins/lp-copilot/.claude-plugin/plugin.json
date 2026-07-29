@@ -1,0 +1,10 @@
+{
+  "name": "lp-copilot",
+  "version": "1.0.0",
+  "description": "LP copilot for concentrated-liquidity positions — free enumeration on 7 chains, paid deterministic analytics per call (x402). Non-custodial; never signs on-chain transactions.",
+  "author": { "name": "The Aslan Group LLC", "url": "https://airdroppulse.theaslangroupllc.com" },
+  "homepage": "https://airdroppulse.theaslangroupllc.com",
+  "repository": "https://github.com/GTCC777/pulsenetwork-cursor",
+  "license": "MIT",
+  "keywords": ["defi", "liquidity", "uniswap-v3", "points", "x402"]
+}

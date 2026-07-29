@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lp-copilot": {
+      "command": "npx",
+      "args": ["-y", "@pulsenetwork/lp-copilot-mcp", "mcp"]
+    }
+  }
+}
